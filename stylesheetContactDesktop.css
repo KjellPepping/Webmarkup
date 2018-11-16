@@ -1,0 +1,191 @@
+body
+{
+    
+     background-image: url('img/background.jpeg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+    z-index: -1;
+}
+h1
+{
+    background-image: url('img/companylogoBG.jpg');
+    background-size: 100%;
+    font-size: 5vw;
+    font-family: Arial, "Times New Roman";
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 10vw;
+    padding-top: 5%;
+    background-position: center;
+    color: #FFFFFF;
+     text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+nav
+{
+    background-color: #707070;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, "Times New Roman";
+    height: 3vw;
+    font-size: 2vw;
+    border-left: 50px;
+    padding-top: 0.75%;
+}
+
+h2
+{
+    background-color: #2699FB;
+    font-size: 4vw;
+    margin: auto;
+    width: 50%;
+    font-family: Arial, "Times New Roman";
+    text-align: center;
+    color:#FFFFFF;
+    height: 5vw;
+    padding-top: 0.5%
+}
+
+h3
+{
+    background-color: #ffffff;
+    margin: auto;
+    width: 50%;
+   font-size: 2vw;
+   font-family: Arial, "Times New Roman";
+   color:#707070;
+   height: 3vw;
+}
+
+fieldset
+{
+    
+    margin: auto;
+    background-color: #ffffff;
+    border-style: none;
+    color:#707070;
+    font-family: Arial, "Times New Roman";
+    font-size: 2vw;
+
+}
+input[type=submit]
+{
+    color:#ffffff;
+  
+    width: 95%;
+   margin-left: 2.5%;
+    background-color: #2692FB;
+    display: inline-block;
+    border:none;
+    height: 3vw;
+    font-size: 2vw;
+
+}
+textarea
+{
+    
+    width: 100%;
+    font-family: Arial, "Times New Roman";
+    resize: none;
+    font-size: 2vw;
+
+}
+input[type=text],input[type=email]
+{
+   
+  width: 100%;
+
+    font-size:2vw;
+}
+select
+{
+    
+    margin-left: 10%;
+    font-size: 2vw;
+    color:#707070;
+    width: 65%;
+
+}
+
+footer
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    width: 50%;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 3vw;
+    font-size:2vw;
+    padding-top: 0.5%;
+    font-family: Arial, "Times New Roman";
+}
+
+form
+{
+    background-color: #ffffff;
+    margin: auto;
+    height: 41vw;
+    width: 50%;
+
+
+}
+
+
+/* eigenschappen voor de links in nav */
+a:link
+{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+a:visited
+{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+a:hover
+{
+    font-weight: bold;
+}
+a:active
+{
+    color:#000000;
+}
+
+
+@media screen and (max-width: 960px)
+
+{
+    h2
+    {
+        display: none;
+    }
+    body
+    {
+        background-image: none;
+    }
+    h3
+    {
+        display: none;
+    }
+    select
+    {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px)
+
+{
+    h2
+    {
+        display: inline-block;
+        margin-left: 25%;
+    }
+}

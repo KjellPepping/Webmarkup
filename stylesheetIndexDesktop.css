@@ -1,0 +1,174 @@
+body
+{
+    
+    background-image: url('img/background.jpeg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+    z-index: -1;
+}
+h1
+{
+    background-image: url('img/companylogoBG.jpg');
+    object-fit: cover;
+    background-size: 100%;
+    font-size: 5vw;
+    font-family: Arial, "Times New Roman";
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 10vw;
+    padding-top: 5%;
+    background-position: center;
+    color: #FFFFFF;
+     text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+nav
+{
+    background-color: #707070;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, "Times New Roman";
+    height: 3vw;
+    font-size: 1.5vw;
+    border-left: 50px;
+    padding-top: 0.75%;
+}
+h2
+{
+    background-color: #2699FB;
+    font-size: 4vw;
+    margin: auto;
+    width: 50%;
+    font-family: Arial, "Times New Roman";
+    text-align: center;
+    color:#FFFFFF;
+  
+    
+}
+footer
+{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 3vw;
+    font-size:2vw;
+    padding-top: 0.5%;
+    font-family: Arial, "Times New Roman";
+}
+p
+{
+	word-break: normal;
+	width: 25vw;
+	font-size: 5vw;
+	margin: auto;
+
+}
+
+/* eigenschappen voor de links in nav */
+a:link
+{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+a:visited
+{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+a:hover
+{
+    font-weight: bold;
+}
+a:active
+{
+    color:#000000;
+}
+
+h2 img
+{
+		object-fit: cover;
+		height: 20vw;
+	    width: 100%;
+}
+
+
+@media screen and (max-width: 960px)
+{
+    body
+    {
+        background-image: none;
+    }
+	.product3
+	{
+		display: none;	
+	}
+	.MOBILE,.BOARD
+	{
+		display: none;
+	}
+	.product1,.product2
+	{
+		width: 48%;
+        
+
+	}
+	
+   
+}
+
+@media screen and (max-width: 500px)
+{
+    
+	
+	.product3
+	{
+		display:inline-block;	
+	}
+    .product1,.product2
+    {
+        width: 99%;
+    }
+	h2
+	{
+		height: 9vw;
+	}
+	.CONSOLE
+	{
+		display: none;
+	}
+    article
+    {    
+          width: 3px;
+         height: 0.7px;
+         background-color: #000000;
+          margin: 2px 0;
+    }
+    .links
+    {
+        visibility: hidden;
+    }
+   h2 img
+    {
+        border-style: solid;
+        width: 99%;
+        margin: auto;
+    }
+    .fotos
+    {
+        background-color: #ffffff;
+    }
+
+    footer
+    {
+  
+    position: relative;
+    margin-top: 80%;
+
+}
